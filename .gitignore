@@ -49,4 +49,3 @@ google-services.json
 
 # 🔹 Archivos de configuración sensibles
 *.properties
-!gradle.properties
