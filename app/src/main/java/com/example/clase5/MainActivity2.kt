@@ -1,6 +1,5 @@
 package com.example.clase5
 
-import ViewPagerAdapter
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
