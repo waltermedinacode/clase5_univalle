@@ -62,7 +62,7 @@ class MainActivity2 : AppCompatActivity() {
                 R.id.btn3 ->
                     Toast.makeText(this, "Música", Toast.LENGTH_SHORT).show()
             }
-            true
+            true //le indica al componente que la selección fue manejada y aceptada
         }
     }
 }

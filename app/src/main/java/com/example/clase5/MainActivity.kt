@@ -26,14 +26,14 @@ class MainActivity : AppCompatActivity() {
                 R.id.menu1 -> {
                     //Tarea a realizar
                     Toast.makeText(this, "Menú 1", Toast.LENGTH_LONG).show()
-                    true
+                    true //le indica al componente que la selección fue manejada y aceptada
                 }
                 R.id.menu2 -> {
                     //Tarea a realizar
                     Toast.makeText(this, "Menú 2", Toast.LENGTH_LONG).show()
                     true
                 }
-                else -> false
+                else -> false //le indica al componente que no fue seleccionado
             }
         }
         setupDrawer(toolbar)
